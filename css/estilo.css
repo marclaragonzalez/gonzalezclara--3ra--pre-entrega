@@ -1,30 +1,113 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 10% 30% 50% 10%;
 
+    grid-template-areas: "encabezado encabezado encabezado"
+                         "mainA mainB mainC"
+                         "mainD mainE mainF"
+                         "pie   pie   pie"
 
-.logolargo
+}
+
+.encabezado1 {
+    
+    grid-area: encabezado;
+    background-color: lightgray;
+}
+
+.botonbuscador:hover{
+    background-color: mediumpurple;
+}
+
+.main1
 {
-    align-content: center;
-    margin: 100px;
+    grid-area: mainB;
+    
 }
 
-.quienesomos{
-    align-content: center;
+.main3
+{
+    grid-area: mainF;
 }
 
-.primerades{
-    background-color: rgb(134, 122, 227);
+.titulo1
+{
+    padding: 10px;
+    border: 20px;
+    border-radius: 10px;
+    background-color: mediumslateblue;
+    font-family: Arial ;
     text-align: center;
-    margin: 50px;
+    margin: 15px;
+    color: ghostwhite;
 }
 
-.segudes{
-    margin: 100px;
+
+
+.main2 {
+    
+    grid-area: mainE;
+
+    
 }
 
-.botonanterior{
+.cami
+
+{
+    text-align: center;
+}
+
+.logoinicio
+
+{
+    text-align: center;
+}
+
+.logogrande
+{
+    width: 400px;
+    height: 400px;
+}
+
+.camisapng
+{
+    margin-top: 20px;
+    width: 100px;
+    height: 120px;
+}
+
+
+.pie1
+{
+    font-family: arial;
+    grid-area: pie;
+}
+
+.menufooter
+{
+    text-align: center;
+    background-color: lightgray;
+}
+
+.quienessomos
+{
+    text-decoration: none;
+}
+
+.botonayuda{
+    text-decoration: none;
     color: tomato;
 }
 
-.asesor{
-    background-color: mediumpurple;
-    text-align: center;
+
+
+.botonanterior{
+    text-decoration: none;
+    color: tomato;
 }
+
+.botonanterior:hover{
+    color: blueviolet;
+}
+
