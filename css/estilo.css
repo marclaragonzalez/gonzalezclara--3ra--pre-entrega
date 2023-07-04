@@ -26,9 +26,15 @@
     
 }
 
+
 .main3
 {
     grid-area: mainF;
+}
+
+.main4
+{
+    grid-area: mainA;
 }
 
 .titulo1
@@ -111,3 +117,71 @@
     color: blueviolet;
 }
 
+
+/* busqueda anterior */
+.titulo2{
+grid-area: mainB;
+
+    
+}
+
+.tituloasesor{
+    margin: 30px;
+    text-align:center;
+    color: beige;
+    background-color: mediumslateblue;
+}
+
+.tituloidea{
+    background-color: mediumslateblue;
+    text-align: center;
+}
+
+.formulariobusqueda{
+    text-align: center;
+}
+
+
+/* login */
+
+.titulologin{
+    grid-area: mainB;
+}
+
+.botoniniciosesion{
+
+    margin: 30px;
+    color:mediumslateblue;
+    text-align: center;
+}
+
+.botoniniciosesion:hover{
+    background-color: tomato;
+
+}
+
+.seccionlogin{
+    grid-area: mainE;
+}
+
+.formbusqueda{
+    margin: 15px;
+    text-align: center;
+}
+
+.pierepetirbusqueda{
+    text-align: center;
+}
+
+
+.imgpagina
+{
+    width: 150px;
+    height: 250px;
+    text-align: center;
+}
+
+
+.pie2{
+    grid-area: pie;
+}
