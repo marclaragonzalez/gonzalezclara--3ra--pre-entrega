@@ -214,3 +214,30 @@ margin-block-start: 20px;
 .piequienes{
     grid-area: pie;
 }
+
+
+/* registro */
+
+.registromain1{
+    grid-area: mainB;
+}
+
+.registromain{
+    grid-area: mainE;
+}
+
+.registroform{
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.registrarme{
+    text-align: center;
+    color: mediumslateblue;
+}
+
+.registrarme:hover{
+    color: tomato;
+}
+
