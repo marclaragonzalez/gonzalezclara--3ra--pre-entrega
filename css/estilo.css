@@ -6,7 +6,7 @@
     grid-template-areas: "encabezado encabezado encabezado"
                          "mainA mainB mainC"
                          "mainD mainE mainF"
-                         "pie   pie   pie"
+                         "pie pie pie"
 
 }
 
@@ -183,5 +183,34 @@ grid-area: mainB;
 
 
 .pie2{
+    grid-area: pie;
+}
+
+/* quienes somos */
+.tituloquienes{
+    grid-area: mainB;
+}
+
+.cajatituloquienes{
+    margin: 10px;
+    color: snow;
+    text-align: center;
+    background-color: mediumslateblue;
+    border: 50px;
+    border-radius: 10px;
+}
+
+.seccionvideo{
+    grid-area: mainE;
+}
+
+.videoquienes{
+margin-left: 350px;
+margin-block-start: 20px;
+
+
+}
+
+.piequienes{
     grid-area: pie;
 }
